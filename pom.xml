@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>javax.servle</groupId>
-	<artifactId>javax.servlet:jar:3.1.0</artifactId>
+	<groupId>com.mt</groupId>
+	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>3.1.0</version>
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -85,9 +85,9 @@
 		<!-- provided dependencies -->
 
 		<dependency>
-			<groupId>javax.servlet:jar:3.1.0</groupId>
-			<artifactId>javax.servlet:jar:3.1.0</artifactId>
-			<version>3.1.0</version>
+			<groupId>com.mt</groupId>
+			<artifactId>maven-web-application</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		
